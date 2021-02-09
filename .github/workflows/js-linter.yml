@@ -3,7 +3,6 @@ name: JavaScript lint
 
 on:
   -push
-  -pull-request
 
 jobs:
   build:
