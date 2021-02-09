@@ -1,0 +1,24 @@
+{
+  "name": "@hexlet/code",
+  "version": "0.0.1",
+  "description": "[![Actions Status](https://github.com/dimidroll450/frontend-project-lvl1/workflows/hexlet-check/badge.svg)](https://github.com/dimidroll450/frontend-project-lvl1/actions)",
+  "main": "brain-games.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dimidroll450/frontend-project-lvl1.git"
+  },
+  "keywords": [
+    "brain-games",
+    "hexlet",
+    "pet-project"
+  ],
+  "author": "dmitry kvashchauskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dimidroll450/frontend-project-lvl1/issues"
+  },
+  "homepage": "https://github.com/dimidroll450/frontend-project-lvl1#readme"
+}
