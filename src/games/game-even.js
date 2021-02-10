@@ -1,25 +1,15 @@
-import readlincSync from 'readline-sync';
-import congratPlayer from '../cli.js';
-import getRandom from '../utils.js';
+import engine from '../index.js';
+import { getRandom } from '../utils.js';
 
-const name = congratPlayer();
+const description = 'Answer "yes" if the number is even, otherwise answer "no".';
+
+const gameLogic = () => {
+  const question = getRandom(100, 1);
+  const correctResult = parseInt(question, 10) % 2 === 0 ? 'yes' : 'no';
+
+  return { question, correctResult };
+};
 
 export default () => {
-  console.log('Answer "yes" if the number is even, otherwise answer "no".');
-
-  for (let i = 0; i < 3; i += 1) {
-    const number = getRandom(1000, 1);
-    const correctAnswer = number % 2 === 0 ? 'yes' : 'no';
-
-    console.log(`Question: ${number}`);
-    const playerAnswer = readlincSync.question('Your answer: ');
-    const isCorrect = playerAnswer === correctAnswer;
-    if (!isCorrect) {
-      console.log(` ${playerAnswer} is wrong answer. Correct answer was ${correctAnswer}`);
-      console.log(`Let's try again, ${name}`);
-      return;
-    }
-    console.log('Correct!');
-  }
-  console.log(`Congratulations, ${name}`);
+  engine(description, gameLogic);
 };

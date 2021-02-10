@@ -7,7 +7,14 @@
 
 ### Brain Even Game
 If player wins
-https://asciinema.org/a/KFSUg1CBytf3tdGqavyZaX3Wr
+[![win]](https://asciinema.org/a/KFSUg1CBytf3tdGqavyZaX3Wr)
 
-If player loseы
-https://asciinema.org/a/znyPGSgJB7srP9tu3oQtmcnYF
+If player loses
+[![lose]](https://asciinema.org/a/znyPGSgJB7srP9tu3oQtmcnYF)
+
+### Brain Calc Game
+If player wins
+[![win]](https://asciinema.org/a/SO4rA4KrJCkcBVwbqn83hOPvd)
+
+If player loses
+[![lose]](https://asciinema.org/a/Gilrtw0wa4cTFLUfvEEYtfoSo)
