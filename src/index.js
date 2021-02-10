@@ -14,11 +14,11 @@ export default (description, gameLogic) => {
     const isCorrect = playerAnswer === correctResult;
 
     if (!isCorrect) {
-      console.log(` ${playerAnswer} is wrong answer ;(. Correct answer was ${correctResult}`);
+      console.log(` ${playerAnswer} is wrong answer ;(. Correct answer was ${correctResult}.`);
       console.log(`Let's try again, ${name}`);
       return;
     }
     console.log('Correct!');
   }
-  console.log(`Congratulations, ${name}`);
+  console.log(`Congratulations, ${name}.`);
 };
