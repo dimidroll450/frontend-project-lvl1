@@ -14,7 +14,7 @@ If player loses
 
 ### Brain Calc Game
 If player wins
-[![win]](https://asciinema.org/a/SO4rA4KrJCkcBVwbqn83hOPvd)
+[![win](https://asciinema.org/a/SO4rA4KrJCkcBVwbqn83hOPvd)](https://asciinema.org/a/SO4rA4KrJCkcBVwbqn83hOPvd)
 
 If player loses
 [![lose]](https://asciinema.org/a/Gilrtw0wa4cTFLUfvEEYtfoSo)
