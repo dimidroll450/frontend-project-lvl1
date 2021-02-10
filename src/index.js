@@ -1,4 +1,4 @@
-import readlincSync from 'readline-sync';
+import readlineSync from 'readline-sync';
 import congratPlayer from './cli.js';
 
 export default (description, gameLogic) => {
@@ -10,7 +10,7 @@ export default (description, gameLogic) => {
     const { question, correctResult } = gameLogic();
 
     console.log(`Question: ${question}`);
-    const playerAnswer = readlincSync.question('Your answer: ');
+    const playerAnswer = readlineSync.question('Your answer: ');
     const isCorrect = playerAnswer === correctResult;
 
     if (!isCorrect) {
