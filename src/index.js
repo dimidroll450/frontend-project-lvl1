@@ -2,7 +2,6 @@ import readlineSync from 'readline-sync';
 import congratPlayer from './cli.js';
 
 export default (description, gameLogic) => {
-  console.log('Welcome to the Brain Games');
   const name = congratPlayer();
   console.log(`${description}`);
 
