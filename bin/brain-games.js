@@ -1,5 +1,7 @@
 #! /usr/bin/env node
 
-import congratPlayer from '../src/cli.js';
+import { welcome, getName, greeting } from '../src/cli.js';
 
-congratPlayer();
+welcome();
+const name = getName();
+greeting(name);

@@ -1,8 +1,10 @@
 import readlineSync from 'readline-sync';
-import congratPlayer from './cli.js';
+import { welcome, getName, greeting } from './cli.js';
 
 export default (description, gameLogic) => {
-  const name = congratPlayer();
+  welcome();
+  const name = getName();
+  greeting(name);
   console.log(`${description}`);
 
   for (let i = 0; i < 3; i += 1) {
