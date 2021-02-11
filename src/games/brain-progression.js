@@ -12,7 +12,8 @@ const gameLogic = () => {
   const startNumber = createRandomNumber(100, 1);
   const array = createRandomArray(startNumber);
   const correctResult = String(getRandomValue(array));
-  const question = replaceWith(correctResult, '..', array);
+  const replacedArr = replaceWith(correctResult, '..', array);
+  const question = replacedArr.join(' ');
   return { question, correctResult };
 };
 
